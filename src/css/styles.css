@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body{
+    background-color: #10264e;
+    font-family: 'Share Tech Mono', monospace;
+    color: #86ffef;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 15px;
+    background-color: #183569;
+    height: 50px;
+    border-bottom: 1px solid #abd3f1;
+    box-shadow: 5px 0 15px 5px rgba(0, 0, 0, 0.700);
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    font-size: 19px;
+}
+
+.social-links{
+    display: flex;
+    gap: 10px;
+}
+
+.social-links img{
+    height: 30px;
+    padding-top: 4px;
+}
+
+p span{
+    color: rgb(182, 182, 182);
+}
+
+h1 span{
+    color: rgb(182, 182, 182);
+}
+
+section{
+    width: 100%;
+    max-width: 1250px;
+    margin: 50px auto;
+    padding: 0 25px;
+}
+
+section footer{
+    border-bottom: 2px solid #a1a1a1d0;
+}
+
+section h1{
+    font-size: 35px;
+}
+
+section h1 span{
+    font-weight: 10;
+    font-size: 25px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    font-size: 18px;
+    color: #e6e6e6d0;
+}
+
+.window{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    width: 40%;
+}
+
+#window2{
+    justify-content:flex-start;
+    width: 100%;
+    height: 60%;
+}
+
+#tech-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 6vw;
+    row-gap: 3.5vw;
+    flex-wrap: wrap;
+}
+
+#tech-div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    width: 10%;
+    background-color: #00123393;
+    padding: 5px;
+}
+
+.window-body img{
+    width: 100%;
+    padding-top: 3px;
+}
+
+.destaque{
+    color: #86ffef;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    padding-right: 15px;
+    gap: 10px;
+    width: 60%;
+}
