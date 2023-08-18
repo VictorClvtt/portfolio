@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://unpkg.com/98.css" />
     <link rel="stylesheet" href="./src/css/styles.css">
     <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
 <body>
     <header>
@@ -31,7 +32,7 @@
 
         <div class="content">
             <div class="texto">
-                <p><span id="saudacao"></span>, meu nome é <span class="destaque">Victor Clivatti</span> e sou um desenvolvedor Front-End e Back-End em formação e sempre fui apaixonado por criar coisas.</p>
+                <p><span id="saudacao" class="destaque"></span> meu nome é <span class="destaque">Victor Clivatti</span> e sou um desenvolvedor Front-End e Back-End em formação e sempre fui apaixonado por criar coisas.</p>
                 <p>Minha carreira como desenvolvedor começou em 2022 quando entrei na <span class="destaque">Fatec de Botucatu</span>, antes disso eu já conhecia bem lógica de programação, mas o que me incentivou a estudar mais e me fez realmente criar gosto pela programação foi a faculdade.</p>
                 <p>Há cerca de um ano que venho estudando desenvolvimento web, que é apenas uma das áreas pelas quais me interesso, mas escolhi começar por ela.</p>
                 
@@ -41,7 +42,7 @@
                       <div class="title-bar-controls">
                         <button aria-label="Minimize"></button>
                         <button aria-label="Maximize"></button>
-                        <button aria-label="Close"></button>
+                        <button aria-label="Close" id="close1" onclick="fechar('window2')"></button>
                       </div>
                     </div>
                     <div class="window-body" id="tech-div">
@@ -81,13 +82,13 @@
                     </div>
                 </div>
             </div>
-                <div class="window">
+                <div class="window" id="window1">
                     <div class="title-bar">
                       <div class="title-bar-text">eu.png</div>
                       <div class="title-bar-controls">
                         <button aria-label="Minimize"></button>
                         <button aria-label="Maximize"></button>
-                        <button aria-label="Close"></button>
+                        <button aria-label="Close" class="close2" onclick="fechar('window1')"></button>
                       </div>
                     </div>
                     <div class="window-body">

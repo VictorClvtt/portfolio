@@ -11,7 +11,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 35px;
+    padding-left: 3vw;
     padding-right: 15px;
     background-color: #183569;
     height: 50px;
@@ -23,7 +23,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 75px;
+    gap: 4.5vw;
     font-size: 19px;
 }
 
@@ -68,7 +68,7 @@ section h1 span{
 .content{
     display: flex;
     justify-content: space-between;
-    padding: 40px 20px;
+    padding: 40px 20px 0;
     font-size: 18px;
     color: #e6e6e6d0;
 }
@@ -78,7 +78,13 @@ section h1 span{
     flex-direction: column;
     justify-content: center;
     height: fit-content;
+    min-height: 150px;
     width: 40%;
+}
+
+#window1{
+    align-self: flex-end;
+    width: 68%;
 }
 
 #window2{
@@ -90,10 +96,11 @@ section h1 span{
 #tech-div{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 6vw;
-    row-gap: 3.5vw;
+    justify-content: center;
+    column-gap: 6vw;
+    row-gap: 7.5vh;
     flex-wrap: wrap;
+    height: 100%;
 }
 
 #tech-div div{
@@ -101,8 +108,10 @@ section h1 span{
     flex-direction: column;
     align-items: center;
     gap: 6px;
+    margin: auto;
     width: 10%;
-    background-color: #00123393;
+    font-size: 12px;
+    background-color: #00123371;
     padding: 5px;
 }
 
@@ -124,5 +133,5 @@ section h1 span{
     font-size: 16px;
     padding-right: 15px;
     gap: 10px;
-    width: 60%;
+    width: 100%;
 }
