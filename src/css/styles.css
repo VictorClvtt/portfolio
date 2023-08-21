@@ -109,10 +109,15 @@ section h1 span{
     align-items: center;
     gap: 6px;
     margin: auto;
-    width: 10%;
+    width: 70px;
     font-size: 12px;
     background-color: #00123371;
     padding: 5px;
+    transition: 0.5s;
+}
+
+#tech-div div:hover{
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.550);
 }
 
 .window-body img{
@@ -134,4 +139,32 @@ section h1 span{
     padding-right: 15px;
     gap: 10px;
     width: 100%;
+}
+
+#tech-desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+#tech-desc p{
+    padding: 20px 15px;
+    background-color: #001f5aac;
+    font-size: 15px;
+}
+
+#tech-desc img{
+    height: 15vw;
+    width: auto;
+}
+
+#tech-desc input{
+    position: absolute;
+    width: 20px;
+    font-size: 13px;
+    border-radius: 0;
+    align-self: flex-end;
 }

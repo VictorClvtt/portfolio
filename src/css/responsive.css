@@ -24,4 +24,11 @@
     #tech-div div{
         width: 18%;
     }
+    
+}
+
+@media screen and (max-width: 890px) {
+    #tech-div div{
+        width: 50px;
+    }
 }
