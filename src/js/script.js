@@ -94,4 +94,3 @@ function voltar(){
     <p>Bash</p>
     </div>`
 }
-

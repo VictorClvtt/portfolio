@@ -1,4 +1,4 @@
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 670px){
     #window1{
         display: none;
     }
@@ -27,8 +27,58 @@
     
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 890px){
     #tech-div div{
         width: 50px;
     }
+}
+
+@media screen and (max-width: 990px){
+    .info-projeto div img{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 860px){
+    .info-projeto div a{
+        font-size: 25px;
+    }
+
+    .projeto{
+        zoom: 75%;
+    }
+}
+
+@media screen and (max-width: 595px){
+    .info-projeto div a{
+        font-size: 25px;
+    }
+
+    .projeto{
+        zoom: 50%;
+    }
+
+    .info-projeto p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .info-projeto div a{
+        font-size: 25px;
+    }
+
+    .projeto{
+        height: 200px;
+        zoom: 40%;
+    }
+
+    .info-projeto p{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 760px){
+
 }
