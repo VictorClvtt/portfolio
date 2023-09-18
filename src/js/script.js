@@ -94,3 +94,22 @@ function voltar(){
     <p>Bash</p>
     </div>`
 }
+
+var scrollableElement = document.body; //document.getElementById('scrollableElement');
+
+scrollableElement.addEventListener('wheel', checkScrollDirection);
+
+function checkScrollDirection(event) {
+  if (checkScrollDirectionIsUp(event)) {
+    document.getElementsByTagName('header')[0].style.top = '0px'
+  } else {
+    document.getElementsByTagName('header')[0].style.top = '-50px'
+  }
+}
+
+function checkScrollDirectionIsUp(event) {
+  if (event.wheelDelta) {
+    return event.wheelDelta > 0;
+  }
+  return event.deltaY < 0;
+}
